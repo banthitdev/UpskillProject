@@ -1,0 +1,24 @@
+{
+    "type": [
+        {
+            "typeId": 1,
+            "typeName": "Data Definition Language(DDL)",
+            "titleId": 1
+        },
+        {
+            "typeId": 2,
+            "typeName": "Data Manipulation(DML)",
+            "titleId": 1
+        },
+        {
+            "typeId": 3,
+            "typeName": "Transaction Management",
+            "titleId": 1
+        },
+        {
+            "typeId": 4,
+            "typeName": "Security and Authorization",
+            "titleId": 1
+        }
+    ]
+}

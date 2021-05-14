@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/jQuery/jquery-3.6.0.min.js"></script>
+    <script>
+        var response = $.getJSON("/data/Title.json")
+                        .done(function(item) {
+                            console.log(JSON.stringify(item.title));
+                        });
+        var obj = jQuery.parseJSON(JSON.stringify(response));
+        console.log(obj);
+        $.each(obj, function(key,value) {
+            //alert(value);
+        }); 
+    </script>
+</head>
+
+<body bgcolor="blue">
+    <ul class="menu"></ul>
+    <input type="text" name="test">
+</body>
+
+</html>
